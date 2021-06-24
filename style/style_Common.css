@@ -1,0 +1,174 @@
+@charset "UTF-8";
+@import url(reset.css);
+
+
+body {
+    background-color: #ebeaef;
+}
+
+/* div#wrap */
+div#wrap {
+    width: 1360px;
+    margin: 10px auto;
+}
+/* div#wrap */
+
+/* main#main */
+main#main {
+    background-color: #fff;
+}
+#main>header#header {
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+}
+/* main#main */
+
+div#bbs, div#signBoard {
+    background-color: #fff;
+}
+
+/* nav#gnb */
+#gnb li.mainLi {
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+#gnb li.mainLi {
+    border: 1px solid #aaa;
+    border-right: none;
+}
+#gnb li.mainLi:last-child {
+    border-right: 1px solid #aaa;
+}
+#gnb a {
+    width: 100%;
+    height: 46px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    line-height: 46px;
+
+}
+#gnb a.selected {
+    color: #fff;
+    background-color: #16a840;
+}
+/* nav#gnb */
+
+
+/* div#slide */
+#main {
+    background-color: #fff;
+    margin-bottom: 24px;
+}
+#main div#slide {
+    padding: 10px 0 30px ;
+   /* border: 1px solid #f80;*/
+    margin-top: 15px;
+}
+
+#main div.arrowArea {
+    line-height: 265px;
+    padding: 10px;
+    margin: 0 10px;
+}
+#main div#shuttleFrame {/*
+    border: 1px solid #000;*/
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+
+    justify-content: space-between;
+}
+#main #shuttleFrame div.slideItem {
+    border: 1px solid #aaa;
+
+}
+#main #shuttleFrame div.forestInfo {
+    padding: 16px;
+}
+#main .forestInfo hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin-bottom: 6px;
+}
+#main .forestInfo h3 {
+    color: #22834d;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#main .forestInfo address {
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+#main .forestInfo ul {
+    list-style-position: inside;
+}
+#main .forestInfo li {
+    font-size: 13px;
+    font-weight: bold;
+}
+/* div#slide */
+
+
+/* div#contents */
+div#contents {
+
+}
+
+div#bbs, div#signBoard {
+
+}
+
+#contents #bbs {
+    margin-right: 20px;
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+#contents #signBoard {
+    width: 450px;
+    padding: 34px;
+}
+#contents #signBoard h2 {
+    color: #000;
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+#contents #signBoard div#controlArea {
+    width: 80px;
+
+}
+#contents #controlArea span {
+    text-align: center;
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+#contents #signBoard #signBoardHeader {
+    margin-bottom: 20px;
+}
+#contents div#boardImgArea {
+    text-align: center;
+}
+
+
+/* div#contents */

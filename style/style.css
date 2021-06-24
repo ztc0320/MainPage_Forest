@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@import url("reset.css");
+
+div#wrap {border: 1px solid #000;}
+div#container {border: 1px solid #000;}
+/*header#header {border: 1px solid #000;}*/
+nav#gnb {border: 1px solid #000;}
+li.gnbMenuLi {border: 1px solid #000;}
+
+/* div#wrap */
+div#wrap {
+    width: 1370px;
+    height: 880px;
+    margin: 0 auto;
+}
+/* div#wrap */
+
+/* header#header */
+header#header {
+    text-align: center;
+    padding: 20px;
+}
+/* header#header */
+
+/* nav#gnb */
+ul#gnbMenu {
+
+}
+li.gnbMenuLi{
+    text-align: center;
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+li.gnbMenuLi a{
+    display: block;
+    padding: 6px;
+}
+/* nav#gnb */
+
+/* div#slide */
+div#slide {
+    padding: 10px;
+
+}
+#gallery>div {
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+    margin: 10px;
+}
+div#gallery>.galleryContents {
+    border: 1px solid #aaa;
+}
+.galleryContents>div {
+    display: block;
+    padding: 20px;
+}
+.galleryContents>div>div {
+    padding-bottom: 5px;
+}
+.galleryContents>div>p#addr {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #aaa;
+}
+div#prevImg, div#nextImg {
+    text-align: center;
+    line-height: 200px;
+}
+
+.subject {
+    font-weight: bold;
+    display: inline-block;
+}
+#phoneNum {
+}
+/* div#slide */
+
