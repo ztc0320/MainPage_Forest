@@ -249,5 +249,7 @@ div#bbsMore {
     font-weight: bold;
 }
 
-
+#tabContents table tbody tr .date {
+    padding: 0 5px;
+}
 /* div#tabContents */
