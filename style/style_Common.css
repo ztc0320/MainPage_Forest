@@ -205,9 +205,18 @@ div#bbsMore {
 
 
 /* div#tabContents */
+#contents div#tabContents {
+    flex-wrap: wrap;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+#contents #bbs {
+    padding: 10px 20px 0;
+    margin-right: 20px;
+}
 #contents #bbs table {
-    width: 400px;
-    border: 1px solid #000;
+    width: 416px;
+    margin-bottom: 30px;
 }
 #contents #bbs table tr:last-child td {
     color: #555;
@@ -239,4 +248,6 @@ div#bbsMore {
     font-size: 14px;
     font-weight: bold;
 }
+
+
 /* div#tabContents */
