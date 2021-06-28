@@ -5,7 +5,9 @@
 body {
     background-color: #ebeaef;
 }
-
+main#main, div#bbs, div#signBoard {
+    border-radius: 14px;
+}
 /* div#wrap */
 div#wrap {
     width: 1360px;
@@ -15,6 +17,7 @@ div#wrap {
 
 /* main#main */
 main#main {
+    margin-bottom: 24px;
     background-color: #fff;
 }
 #main>header#header {
